@@ -1,0 +1,56 @@
+.ribbon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(162, 141, 238);
+    gap: 40px;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+#time {
+    width: 6%;
+}
+
+#year {
+    width: 10%;
+}
+
+#clock {
+    font-size: 24px;
+}
+
+#calendar {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+#countdown {
+    font-size: 24px;
+    margin-top: 20px;
+}
+
+#message {
+    color: red;
+    margin-top: 10px;
+}
+
+main {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    margin-top: 5%;
+}
+
+@media screen and (max-width: 700px) {
+    
+    h1 {
+        font-size: 25px;
+    }
+
+    .ribbon {
+        gap: 0px;
+    }
+}
